@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <meta name="description" content="有时候需要将块元素进行浮动，使之出现在同一行，但是浮动也有一个问题出现，那就是浮动的元素不占文档流，下面的元素会浮动到上面，那么，我们就需要进行清除浮动。清除浮动的方法有大致三种：1.比较常用的是定义一个空的叫clear的div在css样式中  clear：both；2.或者定义一个叫clear的h" />
+  
+
+  
+  
+  
+  
+  
+  
+  <title>clear both | 我是老大，我让你叫啥，你就得叫啥</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="有时候需要将块元素进行浮动，使之出现在同一行，但是浮动也有一个问题出现，那就是浮动的元素不占文档流，下面的元素会浮动到上面，那么，我们就需要进行清除浮动。清除浮动的方法有大致三种：1.比较常用的是定义一个空的叫clear的div在css样式中  clear：both；2.或者定义一个叫clear的hr或br在css样式中   clear：both；3.clear:before,.clear:aft">
+<meta property="og:type" content="article">
+<meta property="og:title" content="clear both">
+<meta property="og:url" content="www.duoyachaoren.club/2017/05/05/clear-both/index.html">
+<meta property="og:site_name" content="我是老大，我让你叫啥，你就得叫啥">
+<meta property="og:description" content="有时候需要将块元素进行浮动，使之出现在同一行，但是浮动也有一个问题出现，那就是浮动的元素不占文档流，下面的元素会浮动到上面，那么，我们就需要进行清除浮动。清除浮动的方法有大致三种：1.比较常用的是定义一个空的叫clear的div在css样式中  clear：both；2.或者定义一个叫clear的hr或br在css样式中   clear：both；3.clear:before,.clear:aft">
+<meta property="og:updated_time" content="2017-05-05T11:56:26.076Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="clear both">
+<meta name="twitter:description" content="有时候需要将块元素进行浮动，使之出现在同一行，但是浮动也有一个问题出现，那就是浮动的元素不占文档流，下面的元素会浮动到上面，那么，我们就需要进行清除浮动。清除浮动的方法有大致三种：1.比较常用的是定义一个空的叫clear的div在css样式中  clear：both；2.或者定义一个叫clear的hr或br在css样式中   clear：both；3.clear:before,.clear:aft">
+  
+  
+    <link rel="icon" href="/css/images/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+  
+  <!-- baidu webmaster push -->
+  <script src='//push.zhanzhang.baidu.com/push.js'></script>
+</head>
+<body class="home blog custom-background custom-font-enabled single-author">
+  <div id="page" class="hfeed site">
+      <header id="masthead" class="site-header" role="banner">
+    <hgroup>
+      <h1 class="site-title">
+        <a href="/" title="我是老大，我让你叫啥，你就得叫啥" rel="home">我是老大，我让你叫啥，你就得叫啥</a>
+      </h1>
+      
+        <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script>
+        <h2 class="site-description"><script>hitokoto();</script></h2>
+      
+    </hgroup>
+
+    <nav id="site-navigation" class="main-navigation" role="navigation">
+            <button class="menu-toggle">菜单</button>
+            <a class="assistive-text" href="/#content" title="跳至内容">跳至内容</a><!--TODO-->
+            <div class="menu-main-container">
+                <ul id="menu-main" class="nav-menu">
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/">Home</a></li>
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/archives">Archives</a></li>
+                
+                </ul>
+            </div>
+    </nav>
+</header>
+      <div id="main" class="wrapper">
+        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-clear-both" class="post-clear-both post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title article-title">
+      clear both
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="javascript:void(0);" data-url="www.duoyachaoren.club/2017/05/05/clear-both/" data-id="cj2g1m5y60000igyc8bcpdzb7" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <p>有时候需要将块元素进行浮动，使之出现在同一行，但是浮动也有一个问题出现，那就是浮动的元素不占文档流，下面的元素会浮动到上面，那么，我们就需要进行清除浮动。清除浮动的方法有大致三种：<br>1.比较常用的是定义一个空的叫clear的div在css样式中  clear：both；<br>2.或者定义一个叫clear的hr或br在css样式中   clear：both；<br>3.clear:before,.clear:after这两个伪元素下特有的属性 content ，用于在 CSS 渲染中向元素逻辑上的头部或尾部添加内容。<br>  .clear:before,.clear:after{<br>        content:’’;<br>        display:block;<br>        clear:both;<br>}<br>这是在清浮动中比较高级的写法</p>
+
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/2017/05/05/clear-both/">
+    <time datetime="2017-05-05T11:28:44.000Z" class="entry-date">
+        2017-05-05
+    </time>
+</a>
+    
+    
+    </footer>
+</article>
+
+
+    
+<nav class="nav-single">
+    <h3 class="assistive-text">文章导航</h3>
+    
+    
+        <span class="nav-next"><a href="/2017/05/05/first-post/" rel="next">first post <span class="meta-nav">→</span></a></span>
+    
+</nav><!-- .nav-single -->
+
+
+
+
+
+
+
+</div></div>
+        <div id="secondary" class="widget-area" role="complementary">
+  
+    <aside id="search" class="widget widget_search"><form role="search" method="get" accept-charset="utf-8" id="searchform" class="searchform" action="//google.com/search">
+    <div>
+        <input type="text" value="" name="s" id="s" />
+        <input type="submit" id="searchsubmit" value="搜索" />
+    </div>
+</form></aside>
+  
+    
+  
+    
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget-content">
+      <ul>
+        
+          <li>
+            <a href="/2017/05/05/clear-both/">clear both</a>
+          </li>
+        
+          <li>
+            <a href="/2017/05/05/first-post/">first post</a>
+          </li>
+        
+          <li>
+            <a href="/2017/05/05/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </aside>
+
+  
+    
+  
+    
+  
+</div>
+      </div>
+      <footer id="colophon" role="contentinfo">
+    <p>&copy; 2017 John Doe
+    All rights reserved.</p>
+    <p>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></p>
+</footer>
+    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+<script src="/js/navigation.js"></script>
+
+<div id="bg"></div>
+
+  </div>
+</body>
+</html>
